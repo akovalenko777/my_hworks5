@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div, span {
+            border: 1px solid red;
+            width:300px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section_1">qwe</a></li>
+        </ul>
+    </nav>
+
+    <a href="#frame_here">To frame</a>
+
+    <a href="about.html#foo"></a>
+
+    <form method="GET" action="https://www.google.com/search" target="_blank">
+        <input type="text" name="q" value="" placeholder="Enter search query">
+
+
+
+        <!-- <input type="submit" value="Search"> -->
+
+        <button type="submit">Search</button>
+        <button type="button">Simple button</button>
+        <button type="reset">Clear</button>
+    </form>
+    <br><br>
+
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Personal info</legend>
+            <label for="fname">First name</label>
+            <br>
+            <input type="text" name="fname" id="fname">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email">
+
+            <br>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Frontend skills</legend>
+
+            <label><input type="checkbox" name="skill[]" value="HTML5"> Html5</label>
+            <br>
+            <input type="checkbox" name="skill[]" value="CSS3" id="skill_css"> <label for="skill_css">CSS3</label>
+            <br>
+            <input type="checkbox" name="skill[]" value="JS"> JavaScript
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+
+            <label>
+                <input type="radio" checked name="gender" value="man"> man
+            </label>
+            <br>
+            <input type="radio" name="gender" value="woman" id="gender_woman"> 
+            <label for="gender_woman">woman</label>
+            <br>
+            <input type="radio" name="gender" value="other"> Other
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Selects</legend>
+
+            <select name="drink[]" multiple size="10">
+                <!-- <option value="">Select drink</option> -->
+                <optgroup label="Non alcohol">
+                    <option value="0">Новый</option>
+                    <option value="1">В обработке</option>
+                    <option selected>Cola</option>
+                </optgroup>
+                <optgroup label="Buhlo">
+                    <option>Ale</option>
+                    <option disabled>Beer</option>
+                </optgroup>
+                <option value="12">Tea</option>
+                <option>Coffe</option>
+                <option selected>Cola</option>
+                <option>Ale</option>
+                <option>Beer</option>
+            </select>
+
+        </fieldset>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque? Saepe sequi omnis eos temporibus doloribus dolor numquam quasi quis nobis ut delectus aperiam, modi odit harum possimus asperiores rem.
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque? Saepe sequi omnis eos temporibus doloribus dolor numquam quasi quis nobis ut delectus aperiam, modi odit harum possimus asperiores rem.
+    </div>
+    <div>
+        <p>
+            <a href="#">
+                <b>Lorem 
+                    <i>ipsum</i>
+                
+            </a> <b><i>dolor</i></b> <i>sit amet</i> consectetur adipisicing elit. Voluptas, itaque? Saepe sequi omnis eos temporibus doloribus dolor numquam quasi quis nobis ut delectus aperiam, modi odit harum possimus asperiores rem.</p>
+    </div>
+
+    <span>Hello students!</span>
+    <span>Hello students!</span>
+    <span>Hello students!</span>
+    <span>Hello students!</span>
+
+    <i></i>
+    <em></em>
+
+    <b></b>
+    <strong></strong>
+
+    <br><br>
+    <h3 id="frame_here">iFrame</h3>
+    <iframe src="https://lms.beetroot.academy/" width="600" height="400"></iframe>
+
+
+    
+
+    <!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/oYnyQ47BUSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+    <a href="#">To top</a> 
+
+
+    
+
+</body>
+</html>
