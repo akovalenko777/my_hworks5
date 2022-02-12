@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    background-color: rgb(160, 160, 160);
+    background-color: #a0a0a0;
+    background-color: #aae200;
+    color: red;
+    color:rgba(255, 99, 71, .5);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:26px;
+    
+}
+
+
+h1 {
+    color:dodgerblue;
+}
+
+.classname {
+
+}
+
+#id_value {
+
+}
