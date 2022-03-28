@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #3B3F45;
+    color:#FF8984;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="checkbox"]:checked + label:after {
+    display: block;
+}
+
+small {
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+label {
+    display: inline-block;
+    font-size: 18px;
+}
+
+label:after {
+    content:'';
+    width: 100%;
+    height: 1px;
+    background-color: #efefef;
+    display:none;
+    margin-top: -9px;
+    z-index:1;
+    position: relative;
+    transform: rotate(-1deg);
+}
+
+
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    padding: 8px 10px;
+    background-color: #0e0020;
+    border-top:2px solid transparent;
+    border-bottom:2px solid transparent;
+}
+
+.list li:hover {
+    border-color:#fff;
+}
+
+.list li:active {
+    background-color: #FF8984;
+    color:#0e0020;
+}
+
+.wrapper {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.icon {
+    width: 63px;
+    height: 63px;
+    border-radius:50%;
+    border:1px solid #1275b9;
+    background-color: #1275b9;
+    background-image: url('../images/sprite.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 30px;
+    transition: all .2s ease;
+}
+.icon:hover {
+    background-color: #fff;
+}
+.icon-tablet {
+    background-position: 19px 15px;
+}
+.icon-cog {
+    background-position: -81px 15px;
+}
+.icon-dash {
+    background-position: -190px 15px;
+}
+
+.icon-tablet:hover {
+    background-position: 19px -54px;
+}
+.icon-cog:hover {
+    background-position: -81px -54px;
+}
+.icon-dash:hover {
+    background-position: -190px -54px;
+}
